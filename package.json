@@ -1,0 +1,6 @@
+{
+  "name": "shipwright",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Agentic coding framework with Claude Code workflows, Jira, GitHub Actions, and Slack integration"
+}

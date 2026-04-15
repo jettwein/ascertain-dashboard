@@ -1,0 +1,58 @@
+name: Auto Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          fetch-depth: 1
+
+      - uses: anthropics/claude-code-action@f73695ddb416e135da2e84cf04fbd47bc89beda5 # v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            PR NUMBER: ${{ github.event.pull_request.number }}
+
+            Review this pull request. This is ADVISORY only - do not block or request changes.
+
+            ## What to check:
+            - Potential bugs, edge cases, error handling gaps
+            - Security concerns (XSS, injection, exposed secrets)
+            - React: hooks usage, accessibility, TypeScript types (avoid 'any')
+            - TypeScript: error handling, type safety, null checks
+            - Config files: exposed secrets, valid syntax
+
+            ## Instructions:
+            1. Read the PR diff using `gh pr diff ${{ github.event.pull_request.number }}`
+            2. Analyze the changes
+            3. Post your review using `gh pr comment ${{ github.event.pull_request.number }} --body "YOUR_REVIEW"`
+
+            ## Review format:
+            ```
+            ## 🤖 Auto Code Review
+
+            ### Summary
+            One sentence assessment.
+
+            ### Findings
+            **filename** (line X): Issue or suggestion
+
+            ### Verdict
+            ✅ Looks good / ⚠️ Minor suggestions / 🔍 Needs discussion
+            ```
+
+            Only post the GitHub comment - don't output anything else.
+
+          claude_args: |
+            --allowedTools "Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Read,Glob,Grep"

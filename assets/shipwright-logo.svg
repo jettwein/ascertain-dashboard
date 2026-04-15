@@ -1,0 +1,41 @@
+<svg width="680" height="440" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(340, 175)">
+    <!-- Hull filled shape -->
+    <path fill="#185FA5" opacity="0.08" d="
+      M-88,40
+      Q-88,-5 -65,-35
+      Q-35,-60 0,-70
+      Q35,-60 65,-35
+      Q88,-5 88,40
+      Z
+    "/>
+    <!-- Hull outline -->
+    <path fill="none" stroke="#0C447C" stroke-width="2.5" stroke-linecap="round" d="
+      M-88,40
+      Q-88,-5 -65,-35
+      Q-35,-60 0,-70
+      Q35,-60 65,-35
+      Q88,-5 88,40
+    "/>
+    <!-- Structural ribs -->
+    <line x1="-58" y1="-40.6" x2="-58" y2="40" stroke="#185FA5" stroke-width="1.5" opacity="0.35"/>
+    <line x1="-29" y1="-58.7" x2="-29" y2="40" stroke="#185FA5" stroke-width="1.5" opacity="0.45"/>
+    <line x1="0"   y1="-70"   x2="0"   y2="40" stroke="#185FA5" stroke-width="1.5" opacity="0.55"/>
+    <line x1="29"  y1="-58.7" x2="29"  y2="40" stroke="#185FA5" stroke-width="1.5" opacity="0.45"/>
+    <line x1="58"  y1="-40.6" x2="58"  y2="40" stroke="#185FA5" stroke-width="1.5" opacity="0.35"/>
+    <!-- Dots at hull intersections -->
+    <circle cx="-58" cy="-40.6" r="3.5" fill="#378ADD" opacity="0.55"/>
+    <circle cx="-29" cy="-58.7" r="3.5" fill="#378ADD" opacity="0.7"/>
+    <circle cx="0"   cy="-70"   r="3.5" fill="#378ADD" opacity="0.9"/>
+    <circle cx="29"  cy="-58.7" r="3.5" fill="#378ADD" opacity="0.7"/>
+    <circle cx="58"  cy="-40.6" r="3.5" fill="#378ADD" opacity="0.55"/>
+    <!-- Code brackets -->
+    <text x="-118" y="8" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="60" font-weight="400" fill="none" stroke="#185FA5" stroke-width="1.8" text-anchor="end" dominant-baseline="central" opacity="0.6">{</text>
+    <text x="118" y="8" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="60" font-weight="400" fill="none" stroke="#185FA5" stroke-width="1.8" text-anchor="start" dominant-baseline="central" opacity="0.6">}</text>
+  </g>
+  <!-- Wordmark -->
+  <text x="340" y="300" text-anchor="middle" font-family="'Helvetica Neue', 'Segoe UI', sans-serif" font-size="42" font-weight="500" fill="#0C447C" letter-spacing="6">SHIPWRIGHT</text>
+  <text x="340" y="328" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="13" fill="#185FA5" letter-spacing="3" opacity="0.7">AGENTIC CODING FRAMEWORK</text>
+  <!-- Waterline accent -->
+  <line x1="230" y1="348" x2="450" y2="348" stroke="#378ADD" stroke-width="0.5" opacity="0.3"/>
+</svg>
