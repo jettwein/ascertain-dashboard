@@ -1,7 +1,1712 @@
 {
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "teams": [],
-  "projects": [],
-  "keyDocs": [],
-  "errors": []
+  "generatedAt": "2026-06-04T20:56:37.733Z",
+  "teams": [
+    {
+      "key": "expansion",
+      "displayName": "Expansion",
+      "linearTeamKey": "EXP",
+      "activeIssues": [
+        {
+          "id": "EXP-546",
+          "title": "Coverage list/browse query for kb_source_documents (by scope × range × domain)",
+          "url": "https://linear.app/ascertain/issue/EXP-546/coverage-listbrowse-query-for-kb-source-documents-by-scope-range",
+          "status": "In Progress",
+          "priority": "Medium",
+          "assignee": "Adam Gschwender",
+          "project": "Knowledge Base",
+          "labels": [
+            "aegisascertain/upp-hub",
+            "Verified",
+            "Backend"
+          ],
+          "updatedAt": "2026-06-04T20:49:00.111Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-450",
+          "title": "MCP: OAuth + desktop-client identity → admin user",
+          "url": "https://linear.app/ascertain/issue/EXP-450/mcp-oauth-desktop-client-identity-admin-user",
+          "status": "In Progress",
+          "priority": "Medium",
+          "assignee": "Adam Gschwender",
+          "project": "Knowledge Base",
+          "labels": [
+            "aegisascertain/upp-hub",
+            "Verified",
+            "Security",
+            "Backend"
+          ],
+          "updatedAt": "2026-06-04T20:04:21.678Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-563",
+          "title": "State Filter Updates and Fixes",
+          "url": "https://linear.app/ascertain/issue/EXP-563/state-filter-updates-and-fixes",
+          "status": "In Progress",
+          "priority": "High",
+          "assignee": "Jack Strickland",
+          "project": "Get TOI fully onto UPP",
+          "labels": [],
+          "updatedAt": "2026-06-04T19:43:49.823Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-567",
+          "title": "Surface material field changes (provider, CPT, payer) on terminal-status cases instead of silently ignoring",
+          "url": "https://linear.app/ascertain/issue/EXP-567/surface-material-field-changes-provider-cpt-payer-on-terminal-status",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "Jordan Salazar",
+          "project": null,
+          "labels": [
+            "Bug",
+            "aegisascertain/upp-integrations"
+          ],
+          "updatedAt": "2026-06-04T19:20:21.830Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-566",
+          "title": "Allow narrow service-date updates on rescheduled cases in terminal statuses",
+          "url": "https://linear.app/ascertain/issue/EXP-566/allow-narrow-service-date-updates-on-rescheduled-cases-in-terminal",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "Jordan Salazar",
+          "project": null,
+          "labels": [
+            "Bug",
+            "aegisascertain/upp-integrations",
+            "CCA"
+          ],
+          "updatedAt": "2026-06-04T19:19:00.858Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-565",
+          "title": "External cancellation of terminal-status cases should not count against auth visits",
+          "url": "https://linear.app/ascertain/issue/EXP-565/external-cancellation-of-terminal-status-cases-should-not-count",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "Jordan Salazar",
+          "project": null,
+          "labels": [
+            "Bug",
+            "Core",
+            "aegisascertain/upp-core",
+            "CCA"
+          ],
+          "updatedAt": "2026-06-04T19:18:00.730Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-547",
+          "title": "Handle appts already associated on auth in auth visit check",
+          "url": "https://linear.app/ascertain/issue/EXP-547/handle-appts-already-associated-on-auth-in-auth-visit-check",
+          "status": "In Review",
+          "priority": "High",
+          "assignee": "Jordan Salazar",
+          "project": "Auth on file",
+          "labels": [],
+          "updatedAt": "2026-06-04T19:11:46.454Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-564",
+          "title": "Right click to open new tab on cases table row",
+          "url": "https://linear.app/ascertain/issue/EXP-564/right-click-to-open-new-tab-on-cases-table-row",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "Jack Strickland",
+          "project": "Get TOI fully onto UPP",
+          "labels": [],
+          "updatedAt": "2026-06-04T18:47:09.805Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-452",
+          "title": "MCP: end-to-end via Claude Desktop + setup docs",
+          "url": "https://linear.app/ascertain/issue/EXP-452/mcp-end-to-end-via-claude-desktop-setup-docs",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "Adam Gschwender",
+          "project": "Knowledge Base",
+          "labels": [
+            "Backend",
+            "aegisascertain/upp-hub"
+          ],
+          "updatedAt": "2026-06-04T18:36:21.829Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-562",
+          "title": "Implement Multi Sort on Statuses Table",
+          "url": "https://linear.app/ascertain/issue/EXP-562/implement-multi-sort-on-statuses-table",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "Jack Strickland",
+          "project": "Get TOI fully onto UPP",
+          "labels": [],
+          "updatedAt": "2026-06-04T18:34:56.662Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-83",
+          "title": "Provider capture — ordering, rendering, and NP/PA detection",
+          "url": "https://linear.app/ascertain/issue/EXP-83/provider-capture-ordering-rendering-and-nppa-detection",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Diagnostics and Procedures (May 4th delivery)",
+          "labels": [],
+          "updatedAt": "2026-06-04T18:05:08.037Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-561",
+          "title": "Fix nightly runs so that they detect and ingest new FLSS orders",
+          "url": "https://linear.app/ascertain/issue/EXP-561/fix-nightly-runs-so-that-they-detect-and-ingest-new-flss-orders",
+          "status": "In Progress",
+          "priority": "None",
+          "assignee": "josh@ascertain.com",
+          "project": "Privia Florida Sleep (FLSS) functioning in UPP",
+          "labels": [],
+          "updatedAt": "2026-06-04T17:35:57.028Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-560",
+          "title": "Investigate & fix NextGen order cases not appearing in upp-core",
+          "url": "https://linear.app/ascertain/issue/EXP-560/investigate-and-fix-nextgen-order-cases-not-appearing-in-upp-core",
+          "status": "In Progress",
+          "priority": "High",
+          "assignee": "Saeed Mohajeryami",
+          "project": "NextGen Integration",
+          "labels": [
+            "Discovery",
+            "aegisascertain/upp-integrations"
+          ],
+          "updatedAt": "2026-06-04T17:28:19.315Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-559",
+          "title": "Athena referralauth writeback: include referred-to (servicing) provider",
+          "url": "https://linear.app/ascertain/issue/EXP-559/athena-referralauth-writeback-include-referred-to-servicing-provider",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": null,
+          "project": null,
+          "labels": [
+            "Bug",
+            "Execution",
+            "aegisascertain/upp-integrations",
+            "no-phi"
+          ],
+          "updatedAt": "2026-06-04T16:58:42.797Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-491",
+          "title": "Frontend — Division selector component in primary nav (per attached PRD design)",
+          "url": "https://linear.app/ascertain/issue/EXP-491/frontend-division-selector-component-in-primary-nav-per-attached-prd",
+          "status": "In Review",
+          "priority": "None",
+          "assignee": "Bobby Agnese",
+          "project": "Division scoping",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-frontend",
+            "Frontend",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-04T14:51:51.212Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-535",
+          "title": "Enrichment agent: substitute supervising physician for NP/PA ordering providers",
+          "url": "https://linear.app/ascertain/issue/EXP-535/enrichment-agent-substitute-supervising-physician-for-nppa-ordering",
+          "status": "In Review",
+          "priority": "High",
+          "assignee": "matheus@ascertain.com",
+          "project": "Diagnostics and Procedures (May 4th delivery)",
+          "labels": [
+            "AI",
+            "aegisascertain/upp-ai",
+            "Feature",
+            "Execution",
+            "Verified"
+          ],
+          "updatedAt": "2026-06-04T01:09:38.667Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-204",
+          "title": "Order + Appointment Querying",
+          "url": "https://linear.app/ascertain/issue/EXP-204/order-appointment-querying",
+          "status": "In Review",
+          "priority": "Urgent",
+          "assignee": "Saeed Mohajeryami",
+          "project": "Diagnostics and Procedures (May 4th delivery)",
+          "labels": [],
+          "updatedAt": "2026-06-04T01:09:38.666Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-428",
+          "title": "B7: Entry detail endpoint — rolled-up cascade view",
+          "url": "https://linear.app/ascertain/issue/EXP-428/b7-entry-detail-endpoint-rolled-up-cascade-view",
+          "status": "In Progress",
+          "priority": "Medium",
+          "assignee": "Adam Gschwender",
+          "project": "Knowledge Base",
+          "labels": [
+            "aegisascertain/upp-hub",
+            "Verified",
+            "Backend"
+          ],
+          "updatedAt": "2026-06-03T23:54:25.246Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-493",
+          "title": "Backend — Unassigned classification logic + reclassification audit log",
+          "url": "https://linear.app/ascertain/issue/EXP-493/backend-unassigned-classification-logic-reclassification-audit-log",
+          "status": "In Review",
+          "priority": "None",
+          "assignee": "Bobby Agnese",
+          "project": "Division scoping",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Core",
+            "Backend",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-03T21:06:04.728Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-495",
+          "title": "Frontend — Division failure-mode UX (Unassigned bucket, classification-pending banner, misclassification stub, metadata-fallback toast)",
+          "url": "https://linear.app/ascertain/issue/EXP-495/frontend-division-failure-mode-ux-unassigned-bucket-classification",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": "Bobby Agnese",
+          "project": "Division scoping",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-frontend",
+            "Frontend",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-03T20:39:23.824Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-551",
+          "title": "Show patient insurance card on case details",
+          "url": "https://linear.app/ascertain/issue/EXP-551/show-patient-insurance-card-on-case-details",
+          "status": "In Progress",
+          "priority": "None",
+          "assignee": "Jordan Salazar",
+          "project": "Agent Ascertrain 🚄 Hackathon",
+          "labels": [
+            "Frontend"
+          ],
+          "updatedAt": "2026-06-03T19:34:21.195Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-550",
+          "title": "Make `provider_npi` and other missing vars required when saving payer responses",
+          "url": "https://linear.app/ascertain/issue/EXP-550/make-provider-npi-and-other-missing-vars-required-when-saving-payer",
+          "status": "In Progress",
+          "priority": "None",
+          "assignee": "Jordan Salazar",
+          "project": "Auth on file",
+          "labels": [],
+          "updatedAt": "2026-06-03T19:34:20.903Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-549",
+          "title": "Fix missing `referringproviderid`",
+          "url": "https://linear.app/ascertain/issue/EXP-549/fix-missing-referringproviderid",
+          "status": "Needs QA",
+          "priority": "None",
+          "assignee": "Jordan Salazar",
+          "project": "Auth on file",
+          "labels": [],
+          "updatedAt": "2026-06-03T19:34:20.835Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-548",
+          "title": "Create authorization in Athena when Auth is found in Payer Portal",
+          "url": "https://linear.app/ascertain/issue/EXP-548/create-authorization-in-athena-when-auth-is-found-in-payer-portal",
+          "status": "Needs QA",
+          "priority": "High",
+          "assignee": "Jordan Salazar",
+          "project": "Auth on file",
+          "labels": [],
+          "updatedAt": "2026-06-03T19:34:20.742Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-415",
+          "title": "A12: Source document admin reads + lifecycle",
+          "url": "https://linear.app/ascertain/issue/EXP-415/a12-source-document-admin-reads-lifecycle",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "Adam Gschwender",
+          "project": "Knowledge Base",
+          "labels": [
+            "Backend",
+            "aegisascertain/upp-hub"
+          ],
+          "updatedAt": "2026-06-03T14:24:47.712Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-424",
+          "title": "B3: union_merge combining algorithm",
+          "url": "https://linear.app/ascertain/issue/EXP-424/b3-union-merge-combining-algorithm",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "Adam Gschwender",
+          "project": "Knowledge Base",
+          "labels": [
+            "Backend",
+            "aegisascertain/upp-hub"
+          ],
+          "updatedAt": "2026-06-03T14:21:26.037Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-396",
+          "title": "Update toggle component UI",
+          "url": "https://linear.app/ascertain/issue/EXP-396/update-toggle-component-ui",
+          "status": "In Progress",
+          "priority": "None",
+          "assignee": null,
+          "project": "Agent Ascertrain 🚄 Hackathon",
+          "labels": [],
+          "updatedAt": "2026-06-03T13:10:13.610Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-458",
+          "title": "Merge Statuses page into Cases list (unified table component)",
+          "url": "https://linear.app/ascertain/issue/EXP-458/merge-statuses-page-into-cases-list-unified-table-component",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "Vitor Carareto",
+          "project": "Case Status and Workflows",
+          "labels": [
+            "aegisascertain/upp-frontend",
+            "Frontend"
+          ],
+          "updatedAt": "2026-06-02T19:48:12.831Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-539",
+          "title": "Setup Testing Tools",
+          "url": "https://linear.app/ascertain/issue/EXP-539/setup-testing-tools",
+          "status": "In Progress",
+          "priority": "None",
+          "assignee": "Saeed Mohajeryami",
+          "project": "NextGen Integration",
+          "labels": [],
+          "updatedAt": "2026-06-02T17:03:44.969Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-536",
+          "title": "Seed NP/PA → supervising physician mappings from HVC Implementation Workbook",
+          "url": "https://linear.app/ascertain/issue/EXP-536/seed-nppa-supervising-physician-mappings-from-hvc-implementation",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "matheus@ascertain.com",
+          "project": "Diagnostics and Procedures (May 4th delivery)",
+          "labels": [
+            "Core",
+            "aegisascertain/upp-core",
+            "Data",
+            "Execution",
+            "Verified"
+          ],
+          "updatedAt": "2026-06-02T13:22:11.424Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-29",
+          "title": "Frontend cutover, sub-phase 1: status display primitives read OverallCaseStatus",
+          "url": "https://linear.app/ascertain/issue/EXP-29/frontend-cutover-sub-phase-1-status-display-primitives-read",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "Vitor Carareto",
+          "project": "Case Status and Workflows",
+          "labels": [
+            "aegisascertain/upp-frontend",
+            "Frontend"
+          ],
+          "updatedAt": "2026-06-02T10:39:47.473Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-531",
+          "title": "Referrals — Verify division filter applies to referrals views (post EXP-491/EXP-492)",
+          "url": "https://linear.app/ascertain/issue/EXP-531/referrals-verify-division-filter-applies-to-referrals-views-post-exp",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": "Bobby Agnese",
+          "project": "Division scoping",
+          "labels": [
+            "Integration",
+            "aegisascertain/upp-frontend",
+            "Frontend",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.723Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-504",
+          "title": "Add REFERRALS case workflow type",
+          "url": "https://linear.app/ascertain/issue/EXP-504/add-referrals-case-workflow-type",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.446Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-508",
+          "title": "Transform step — apply Alo naming convention",
+          "url": "https://linear.app/ascertain/issue/EXP-508/transform-step-apply-alo-naming-convention",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.407Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-507",
+          "title": "Outside Records extraction schema + schema-QA task",
+          "url": "https://linear.app/ascertain/issue/EXP-507/outside-records-extraction-schema-schema-qa-task",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.387Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-505",
+          "title": "Coarse-bucket document classifier (stage 1)",
+          "url": "https://linear.app/ascertain/issue/EXP-505/coarse-bucket-document-classifier-stage-1",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.365Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-506",
+          "title": "Fine-grain document classifier within bucket (stage 2)",
+          "url": "https://linear.app/ascertain/issue/EXP-506/fine-grain-document-classifier-within-bucket-stage-2",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.348Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-503",
+          "title": "Add upp-ai TaskType enum values + migration for fax task types",
+          "url": "https://linear.app/ascertain/issue/EXP-503/add-upp-ai-tasktype-enum-values-migration-for-fax-task-types",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-ai",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.326Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-502",
+          "title": "Add V3 AI callback endpoints + path constants + AIService methods",
+          "url": "https://linear.app/ascertain/issue/EXP-502/add-v3-ai-callback-endpoints-path-constants-aiservice-methods",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.307Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-501",
+          "title": "Add IDP WorkflowVersion.V3 + step-graph scaffolding (stubbed pipeline)",
+          "url": "https://linear.app/ascertain/issue/EXP-501/add-idp-workflowversionv3-step-graph-scaffolding-stubbed-pipeline",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:13.264Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-494",
+          "title": "Frontend — Thread division selection into case-list queries + zero-case empty states",
+          "url": "https://linear.app/ascertain/issue/EXP-494/frontend-thread-division-selection-into-case-list-queries-zero-case",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": "Bobby Agnese",
+          "project": "Division scoping",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-frontend",
+            "Frontend",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:12.623Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-509",
+          "title": "Add \"create case from fax\" step to the V3 document workflow",
+          "url": "https://linear.app/ascertain/issue/EXP-509/add-create-case-from-fax-step-to-the-v3-document-workflow",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": null,
+          "project": "Alo Fax Prototype",
+          "labels": [
+            "Execution",
+            "aegisascertain/upp-core",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:12.480Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-278",
+          "title": "Careport search by Referral ID may return more than one record",
+          "url": "https://linear.app/ascertain/issue/EXP-278/careport-search-by-referral-id-may-return-more-than-one-record",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "Vitor Carareto",
+          "project": null,
+          "labels": [
+            "CarePort",
+            "CCA",
+            "aegisascertain/upp-integrations",
+            "Bug"
+          ],
+          "updatedAt": "2026-06-01T22:20:10.574Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-400",
+          "title": "Enable team coverage and divisions for TOI prod environment",
+          "url": "https://linear.app/ascertain/issue/EXP-400/enable-team-coverage-and-divisions-for-toi-prod-environment",
+          "status": "Todo",
+          "priority": "None",
+          "assignee": "Jack Strickland",
+          "project": "Get TOI fully onto UPP",
+          "labels": [
+            "FDE"
+          ],
+          "updatedAt": "2026-06-01T20:58:58.913Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-486",
+          "title": "Update auth-visit-check to only count appts linked to the auth, not all matching the appt type",
+          "url": "https://linear.app/ascertain/issue/EXP-486/update-auth-visit-check-to-only-count-appts-linked-to-the-auth-not-all",
+          "status": "Needs QA",
+          "priority": "None",
+          "assignee": "Jordan Salazar",
+          "project": "Auth on file",
+          "labels": [],
+          "updatedAt": "2026-06-01T20:25:42.627Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-365",
+          "title": "Auth-on-file: cross-source duplicate dedupe (PAYER_RESPONSE/PAYER_PORTAL/EHR_ATHENA)",
+          "url": "https://linear.app/ascertain/issue/EXP-365/auth-on-file-cross-source-duplicate-dedupe-payer-responsepayer",
+          "status": "Needs QA",
+          "priority": "High",
+          "assignee": "Jordan Salazar",
+          "project": "Auth on file",
+          "labels": [
+            "aegisascertain/upp-core",
+            "Verified",
+            "Core"
+          ],
+          "updatedAt": "2026-06-01T20:25:42.581Z",
+          "completedAt": null
+        },
+        {
+          "id": "EXP-484",
+          "title": "TOI: Add the past-visits count similar to Athena for known auths",
+          "url": "https://linear.app/ascertain/issue/EXP-484/toi-add-the-past-visits-count-similar-to-athena-for-known-auths",
+          "status": "Needs QA",
+          "priority": "None",
+          "assignee": "Jordan Salazar",
+          "project": "Auth on file",
+          "labels": [],
+          "updatedAt": "2026-06-01T20:25:36.255Z",
+          "completedAt": null
+        }
+      ],
+      "recentMessages": [],
+      "slackChannel": "team-expand"
+    },
+    {
+      "key": "automation",
+      "displayName": "Automation",
+      "linearTeamKey": "AUT",
+      "activeIssues": [
+        {
+          "id": "AUT-130",
+          "title": "Allow partner ops to override voice call outcome and quality tags",
+          "url": "https://linear.app/ascertain/issue/AUT-130/allow-partner-ops-to-override-voice-call-outcome-and-quality-tags",
+          "status": "In Progress",
+          "priority": "High",
+          "assignee": "Diego Baldani",
+          "project": "Increase Voice Agent Call Volume Capacity to 100/Day",
+          "labels": [],
+          "updatedAt": "2026-06-04T14:32:46.177Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-129",
+          "title": "Classify completed voice calls with outcome and quality tags",
+          "url": "https://linear.app/ascertain/issue/AUT-129/classify-completed-voice-calls-with-outcome-and-quality-tags",
+          "status": "In Progress",
+          "priority": "High",
+          "assignee": "Diego Baldani",
+          "project": "Increase Voice Agent Call Volume Capacity to 100/Day",
+          "labels": [],
+          "updatedAt": "2026-06-04T14:32:39.182Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-127",
+          "title": "Show voice eligibility on the case status check panel",
+          "url": "https://linear.app/ascertain/issue/AUT-127/show-voice-eligibility-on-the-case-status-check-panel",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "pedro@ascertain.com",
+          "project": "Increase Voice Agent Call Volume Capacity to 100/Day",
+          "labels": [],
+          "updatedAt": "2026-06-03T22:31:00.179Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-124",
+          "title": "Display full outcome of call on case overview page",
+          "url": "https://linear.app/ascertain/issue/AUT-124/display-full-outcome-of-call-on-case-overview-page",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "pedro@ascertain.com",
+          "project": "Increase Voice Agent Call Volume Capacity to 100/Day",
+          "labels": [],
+          "updatedAt": "2026-06-03T22:21:29.326Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-150",
+          "title": "Capability-based status checks — Phase D5: Demographic rollout to remaining payers",
+          "url": "https://linear.app/ascertain/issue/AUT-150/capability-based-status-checks-phase-d5-demographic-rollout-to",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:52.168Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-149",
+          "title": "Capability-based status checks — Phase D4: Handle AMBIGUOUS demographic results in core",
+          "url": "https://linear.app/ascertain/issue/AUT-149/capability-based-status-checks-phase-d4-handle-ambiguous-demographic",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:50.072Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-153",
+          "title": "Capability-based status checks — Phase D3: Demographic lookup branch in integrations + first payer",
+          "url": "https://linear.app/ascertain/issue/AUT-153/capability-based-status-checks-phase-d3-demographic-lookup-branch-in",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:48.195Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-152",
+          "title": "Capability-based status checks — Phase D2: Demographic match keys on the message + dispatcher wiring",
+          "url": "https://linear.app/ascertain/issue/AUT-152/capability-based-status-checks-phase-d2-demographic-match-keys-on-the",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:46.199Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-147",
+          "title": "Capability-based status checks — Phase 5: Two-selector dispatcher in the status check job",
+          "url": "https://linear.app/ascertain/issue/AUT-147/capability-based-status-checks-phase-5-two-selector-dispatcher-in-the",
+          "status": "In Review",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:42.777Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-146",
+          "title": "Capability-based status checks — Phase 4: Orchestrator by-number generalization (core + integrations)",
+          "url": "https://linear.app/ascertain/issue/AUT-146/capability-based-status-checks-phase-4-orchestrator-by-number",
+          "status": "In Review",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:40.736Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-145",
+          "title": "Capability-based status checks — Phase 3b: By-number eligibility selector",
+          "url": "https://linear.app/ascertain/issue/AUT-145/capability-based-status-checks-phase-3b-by-number-eligibility-selector",
+          "status": "In Review",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:38.217Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-144",
+          "title": "Capability-based status checks — Phase 3a: StatusCheckRouteService",
+          "url": "https://linear.app/ascertain/issue/AUT-144/capability-based-status-checks-phase-3a-statuscheckrouteservice",
+          "status": "In Review",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:35.596Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-151",
+          "title": "Capability-based status checks — Phase 2: Payer capability catalog (status_check_routes.json)",
+          "url": "https://linear.app/ascertain/issue/AUT-151/capability-based-status-checks-phase-2-payer-capability-catalog-status",
+          "status": "In Review",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:12:34.169Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-148",
+          "title": "Capability-based status checks — Phase D1: Demographic eligibility selector",
+          "url": "https://linear.app/ascertain/issue/AUT-148/capability-based-status-checks-phase-d1-demographic-eligibility",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:05:45.538Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-143",
+          "title": "Status checks for non-automated cases — Phase 1: Editable per-submission reference number",
+          "url": "https://linear.app/ascertain/issue/AUT-143/status-checks-for-non-automated-cases-phase-1-editable-per-submission",
+          "status": "In Review",
+          "priority": "Medium",
+          "assignee": "vitor.tamberlini@ascertain.com",
+          "project": "Capability-based Status Checks",
+          "labels": [],
+          "updatedAt": "2026-06-03T16:03:25.321Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-126",
+          "title": "Surface voice call triggering in the case workflow",
+          "url": "https://linear.app/ascertain/issue/AUT-126/surface-voice-call-triggering-in-the-case-workflow",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "pedro@ascertain.com",
+          "project": "Increase Voice Agent Call Volume Capacity to 100/Day",
+          "labels": [],
+          "updatedAt": "2026-06-03T14:51:22.289Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-131",
+          "title": "Record and display voice interaction trigger source",
+          "url": "https://linear.app/ascertain/issue/AUT-131/record-and-display-voice-interaction-trigger-source",
+          "status": "Todo",
+          "priority": "Medium",
+          "assignee": "pedro@ascertain.com",
+          "project": "Increase Voice Agent Call Volume Capacity to 100/Day",
+          "labels": [],
+          "updatedAt": "2026-06-03T14:49:38.018Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-132",
+          "title": "Plan partner ops rollout, training, and feedback loop",
+          "url": "https://linear.app/ascertain/issue/AUT-132/plan-partner-ops-rollout-training-and-feedback-loop",
+          "status": "Todo",
+          "priority": "High",
+          "assignee": "christine@ascertain.com",
+          "project": "Increase Voice Agent Call Volume Capacity to 100/Day",
+          "labels": [],
+          "updatedAt": "2026-06-02T17:16:46.817Z",
+          "completedAt": null
+        },
+        {
+          "id": "AUT-36",
+          "title": "Better orphaned voice call status check handling",
+          "url": "https://linear.app/ascertain/issue/AUT-36/better-orphaned-voice-call-status-check-handling",
+          "status": "In Review",
+          "priority": "None",
+          "assignee": "yevgeny@ascertain.com",
+          "project": null,
+          "labels": [
+            "Voice",
+            "Feature"
+          ],
+          "updatedAt": "2026-06-01T22:20:12.321Z",
+          "completedAt": null
+        }
+      ],
+      "recentMessages": [],
+      "slackChannel": "team-autobots"
+    },
+    {
+      "key": "platform",
+      "displayName": "Platform",
+      "linearTeamKey": null,
+      "activeIssues": [],
+      "recentMessages": [],
+      "slackChannel": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "ff45435b-0ab3-4faf-b2d6-0947e070d784",
+      "name": "Privia Florida Sleep (FLSS) functioning in UPP",
+      "url": "https://linear.app/ascertain/project/privia-florida-sleep-flss-functioning-in-upp-98eb094efc4c",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "josh@ascertain.com",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "650a8099-95f5-4373-bd90-651c70c12cf9",
+      "name": "Capability-based Status Checks",
+      "url": "https://linear.app/ascertain/project/capability-based-status-checks-f2701c81bf24",
+      "status": "In Progress",
+      "priority": "Medium",
+      "startDate": "2026-05-19",
+      "targetDate": null,
+      "lead": "vitor.tamberlini@ascertain.com",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Automated status checks for cases not submitted via portal automation (fax-to-PCP, fax-to-payer, manual portal), driven by payer portal capability instead of submission method."
+    },
+    {
+      "id": "473b843e-a1b5-4a7f-98b9-86d12d1554dc",
+      "name": "Bespoke Low-to-No Code Custom Demos",
+      "url": "https://linear.app/ascertain/project/bespoke-low-to-no-code-custom-demos-42130099dd56",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "John Gibb",
+      "teamKeys": [
+        "PLA"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "65a3e070-e734-4e20-be04-9672f2810ab3",
+      "name": "Increase Voice Agent Call Volume Capacity to 1000+/Day",
+      "url": "https://linear.app/ascertain/project/increase-voice-agent-call-volume-capacity-to-1000day-4aa445d526be",
+      "status": "Planned",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "yevgeny@ascertain.com",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "94a831b3-65e2-4fe1-b2b6-8f021c7da271",
+      "name": "Increase Voice Agent Call Volume Capacity to 500/Day",
+      "url": "https://linear.app/ascertain/project/increase-voice-agent-call-volume-capacity-to-500day-692ff0ddbe1f",
+      "status": "Planned",
+      "priority": "High",
+      "startDate": "2026-06-01",
+      "targetDate": "2026-06-26",
+      "lead": "yevgeny@ascertain.com",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "42cf865b-e192-42e1-8c03-7b637653624c",
+      "name": "Increase Voice Agent Call Volume Capacity to 100/Day",
+      "url": "https://linear.app/ascertain/project/increase-voice-agent-call-volume-capacity-to-100day-112d1577842b",
+      "status": "In Progress",
+      "priority": "High",
+      "startDate": "2026-06-01",
+      "targetDate": "2026-06-26",
+      "lead": "yevgeny@ascertain.com",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "08e708e3-293b-42a9-acfc-4fac5ea27dd0",
+      "name": "Division scoping",
+      "url": "https://linear.app/ascertain/project/division-scoping-e60da6dcf1ba",
+      "status": "Backlog",
+      "priority": "High",
+      "startDate": "2026-06-01",
+      "targetDate": "2026-06-15",
+      "lead": "Bobby Agnese",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "Top-level Division selector + full rule-set filter applied to case views, so POps can scope work to HVC/CMA/MDM/CVI/CVCFL without manual sorting."
+    },
+    {
+      "id": "3ade1b1f-78d3-424b-aae5-91696e3b16f1",
+      "name": "NextGen Integration",
+      "url": "https://linear.app/ascertain/project/nextgen-integration-67aaf93675fe",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "Saeed Mohajeryami",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "a4c7e222-cbd5-4e00-9096-3ff1049b1685",
+      "name": "TOI Order Text Parsing",
+      "url": "https://linear.app/ascertain/project/toi-order-text-parsing-f5fcfcc6825c",
+      "status": "Backlog",
+      "priority": "High",
+      "startDate": "2026-06-01",
+      "targetDate": "2026-06-15",
+      "lead": "matheus@ascertain.com",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "V1 parser rollout for TOI mammogram orders: extract CPT/companion codes from IKM free text, surface confidence states in POps, and validate pilot readiness."
+    },
+    {
+      "id": "a192845c-2a30-4b20-938e-f37786e39f41",
+      "name": "Alo Fax Prototype",
+      "url": "https://linear.app/ascertain/project/alo-fax-prototype-b19df5e26a52",
+      "status": "Discovery",
+      "priority": "None",
+      "startDate": "2026-06-01",
+      "targetDate": "2026-07-13",
+      "lead": "josh@ascertain.com",
+      "teamKeys": [
+        "PLA",
+        "EXP"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "605b23e9-b444-4e40-b4ac-74ce0e38ed74",
+      "name": "Self-healing payer portal automation",
+      "url": "https://linear.app/ascertain/project/self-healing-payer-portal-automation-0bebd6433f59",
+      "status": "Backlog",
+      "priority": "Medium",
+      "startDate": null,
+      "targetDate": null,
+      "lead": null,
+      "teamKeys": [
+        "ENG"
+      ],
+      "summary": "Productize the hackathon prototypes for self-healing payer portal automation: record/replay harness, agentic fallback, and shared agent platform decisions."
+    },
+    {
+      "id": "7aad6bf1-9a7f-4c17-95f8-b6813a7b67b8",
+      "name": "Get TOI fully onto UPP",
+      "url": "https://linear.app/ascertain/project/get-toi-fully-onto-upp-1c900ef425dd",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": null,
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "TOI team currently still works out of spreadsheets. Track tasks that will enable them to get onto UPP fully."
+    },
+    {
+      "id": "50f91b1b-ff03-42c2-a0d3-3c5970e3c622",
+      "name": "Knowledge Base",
+      "url": "https://linear.app/ascertain/project/knowledge-base-98f8adc00c26",
+      "status": "In Progress",
+      "priority": "High",
+      "startDate": "2026-05-22",
+      "targetDate": null,
+      "lead": "Adam Gschwender",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "Generic, context-scoped fact / document store in `upp-hub`."
+    },
+    {
+      "id": "5d9d30d4-c647-4c63-8b93-8d7d2f91ac0d",
+      "name": "Post-UF Rollout: Ingestion & Data Model Hardening",
+      "url": "https://linear.app/ascertain/project/post-uf-rollout-ingestion-and-data-model-hardening-a8610f8705cf",
+      "status": "In Progress",
+      "priority": "Medium",
+      "startDate": "2026-05-21",
+      "targetDate": null,
+      "lead": "pedro@ascertain.com",
+      "teamKeys": [
+        "AUT",
+        "ENG"
+      ],
+      "summary": "Follow-up hardening for ingestion/model ownership, Recipient Plan SID consistency, and SFTP behavior after the UF rollout."
+    },
+    {
+      "id": "360adccd-4a40-437b-ad06-1f9da4cca47d",
+      "name": "Agent Ascertrain 🚄 Hackathon",
+      "url": "https://linear.app/ascertain/project/agent-ascertrain-hackathon-8ef45cd6da8d",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": null,
+      "teamKeys": [
+        "EXP",
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "b888b4e9-9bbc-4fbd-8aeb-4a222c0b1bde",
+      "name": "Agent Tools Hackathon",
+      "url": "https://linear.app/ascertain/project/agent-tools-hackathon-75aea35e7f92",
+      "status": "Paused",
+      "priority": "None",
+      "startDate": "2026-05-19",
+      "targetDate": "2026-05-21",
+      "lead": "Adam Gschwender",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "Prototype an agent runtime in upp-ai with tool access (upp-core eapi + MCP), demoed via a manual-trigger ICD-10 diagnosis validation agent end-to-end."
+    },
+    {
+      "id": "a7539092-73c7-490c-b30e-a94677cc7c1f",
+      "name": "Confirm Evidence in Clinical Note (V0)",
+      "url": "https://linear.app/ascertain/project/confirm-evidence-in-clinical-note-v0-4e98fa8dac79",
+      "status": "Planned",
+      "priority": "High",
+      "startDate": "2026-05-26",
+      "targetDate": "2026-05-29",
+      "lead": "Vitor Carareto",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "V0 read-only: 4 agents evaluate Athena cardiac diagnostic orders against the most recent signed clinical note, surfacing findings on Step 2."
+    },
+    {
+      "id": "429d07c4-4ac3-44b1-88fd-0f7b1086f9b4",
+      "name": "Case Purgatory",
+      "url": "https://linear.app/ascertain/project/case-purgatory-4692cc247559",
+      "status": "Completed",
+      "priority": "None",
+      "startDate": "2026-05-18",
+      "targetDate": "2026-06-01",
+      "lead": "Saeed Mohajeryami",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "How to handle the cases with incomplete/pending data"
+    },
+    {
+      "id": "0a615508-2e04-49a8-9db0-fb3150e5af15",
+      "name": "Voice Agent Partner Ops Refinement",
+      "url": "https://linear.app/ascertain/project/voice-agent-partner-ops-refinement-abf46105e5b9",
+      "status": "In Progress",
+      "priority": "None",
+      "startDate": "2026-05-14",
+      "targetDate": null,
+      "lead": "yevgeny@ascertain.com",
+      "teamKeys": [
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "918bffd2-821e-43d0-a4b9-9e855e73974f",
+      "name": "Partner Ops Workflow",
+      "url": "https://linear.app/ascertain/project/partner-ops-workflow-06cd4f0a3e6d",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "josh@ascertain.com",
+      "teamKeys": [
+        "TEC",
+        "EXP",
+        "ENG"
+      ],
+      "summary": "Workflow, role, dashboard, and lifecycle improvements for Partner Ops users in UPP."
+    },
+    {
+      "id": "b0175ac5-0e49-4d44-947d-3e6af9d45207",
+      "name": "Eliminate Manual Reporting + Reduce Partner Ops Load",
+      "url": "https://linear.app/ascertain/project/eliminate-manual-reporting-reduce-partner-ops-load-b0bc6dfb2666",
+      "status": "Backlog",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": null,
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "62d8f2ea-1ae2-4937-8861-0d67b86614ed",
+      "name": "D&P Agentic Workflow — Prompts & Pipeline Architecture",
+      "url": "https://linear.app/ascertain/project/dandp-agentic-workflow-prompts-and-pipeline-architecture-2b86357322d2",
+      "status": "Accepted",
+      "priority": "High",
+      "startDate": "2026-05-04",
+      "targetDate": "2026-05-18",
+      "lead": "derek@ascertain.com",
+      "teamKeys": [
+        "TEC"
+      ],
+      "summary": "Translate Derek's manual D&P rule-set orchestration into specs, prompts, and workflow diagrams that Engineering can implement on Ascertain's managed agent framework. Two pipelines: routing classification + rule set authoring."
+    },
+    {
+      "id": "be84b847-e54d-4135-8583-dd88ca93176f",
+      "name": "Privia Sleep Study Demo Rulesets",
+      "url": "https://linear.app/ascertain/project/privia-sleep-study-demo-rulesets-b1a67b833c0d",
+      "status": "In Progress",
+      "priority": "High",
+      "startDate": "2026-04-29",
+      "targetDate": "2026-05-06",
+      "lead": "derek@ascertain.com",
+      "teamKeys": [
+        "TEC",
+        "EXP"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "e4eaf588-f86b-4f7d-aa08-36ee15d68b32",
+      "name": "Rules for HVC D&P launch",
+      "url": "https://linear.app/ascertain/project/rules-for-hvc-dandp-launch-ffe2020e72a1",
+      "status": "In Progress",
+      "priority": "High",
+      "startDate": "2026-04-28",
+      "targetDate": "2026-05-04",
+      "lead": "derek@ascertain.com",
+      "teamKeys": [
+        "TEC"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "70e5c4a8-8992-4a97-b179-e6e13da1f2df",
+      "name": "POps QoL Enhancements",
+      "url": "https://linear.app/ascertain/project/pops-qol-enhancements-499caad519ec",
+      "status": "Planned",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "christine@ascertain.com",
+      "teamKeys": [
+        "AUT",
+        "EXP",
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "310dbd33-ec14-4948-b80a-f3db71b62e88",
+      "name": "Auth on file",
+      "url": "https://linear.app/ascertain/project/auth-on-file-7df14f482fd4",
+      "status": "In Progress",
+      "priority": "None",
+      "startDate": "2026-04-23",
+      "targetDate": null,
+      "lead": null,
+      "teamKeys": [
+        "AUT",
+        "EXP",
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "ff96d352-d1e2-4910-8ff9-14e4f38aca27",
+      "name": "Complete Case Readiness",
+      "url": "https://linear.app/ascertain/project/complete-case-readiness-4fc3f36f55ad",
+      "status": "In Progress",
+      "priority": "High",
+      "startDate": "2026-04-23",
+      "targetDate": null,
+      "lead": "Gil Gregório",
+      "teamKeys": [
+        "AUT",
+        "ENG"
+      ],
+      "summary": "Pre-submission decision layer (Agent Harness v1) that evaluates structured case completeness for office visit prior auths, so Partner Ops only reviews exceptions."
+    },
+    {
+      "id": "27359e09-14e2-4a22-ab4b-7c164beaee16",
+      "name": "Product Metrics Dashboards and Delivery",
+      "url": "https://linear.app/ascertain/project/product-metrics-dashboards-and-delivery-a49e0571a780",
+      "status": "Planned",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Build reporting outputs, dashboards, and delivery workflows for the product metrics program."
+    },
+    {
+      "id": "e82150fb-0f35-47d6-8126-32bf9c1728eb",
+      "name": "Product Metrics AI Instrumentation",
+      "url": "https://linear.app/ascertain/project/product-metrics-ai-instrumentation-6bd48054ff2f",
+      "status": "Backlog",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Capture the AI-specific events and fields needed for AI-handled and related derived metrics."
+    },
+    {
+      "id": "b378b061-8637-479c-a00d-d4172dd76cd4",
+      "name": "Product Metrics V1 Metric Views",
+      "url": "https://linear.app/ascertain/project/product-metrics-v1-metric-views-77183ac69ef0",
+      "status": "Backlog",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Implement the full L1 metric view layer on top of the expanded schema."
+    },
+    {
+      "id": "651a852c-1e96-47d4-992d-ef99c333be73",
+      "name": "Product Metrics Schema Additions",
+      "url": "https://linear.app/ascertain/project/product-metrics-schema-additions-a9ce16973ba9",
+      "status": "Backlog",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Define and roll out the schema additions needed to support the full L1 metrics set."
+    },
+    {
+      "id": "e0ca4548-8dae-43ee-9a6a-a53de0475190",
+      "name": "Product Metrics Data Materialization",
+      "url": "https://linear.app/ascertain/project/product-metrics-data-materialization-92e4a5d48a8d",
+      "status": "Backlog",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Materialize tenant-tagged source data from customer Cloud SQL instances into BigQuery on a scheduled basis."
+    },
+    {
+      "id": "ee7967bd-04f5-44ed-80a5-ce97c60f8c39",
+      "name": "Product Metrics Infrastructure",
+      "url": "https://linear.app/ascertain/project/product-metrics-infrastructure-f7f45707cc0e",
+      "status": "Completed",
+      "priority": "High",
+      "startDate": "2026-04-21",
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Set up BigQuery connections, service accounts, and core GCP infrastructure for the product metrics platform."
+    },
+    {
+      "id": "340391df-c8d1-4752-afa7-3feb7901eb98",
+      "name": "Unlimited Financials Integration",
+      "url": "https://linear.app/ascertain/project/unlimited-financials-integration-05e5bc62ffe4",
+      "status": "Completed",
+      "priority": "High",
+      "startDate": "2026-04-17",
+      "targetDate": "2026-05-13",
+      "lead": "pedro@ascertain.com",
+      "teamKeys": [
+        "AUT",
+        "ENG"
+      ],
+      "summary": "Completed UF enrichment, scheduled refresh, document push, production validation, and safe Recipient Plan SID cleanup; post-rollout hardening moved to a follow-up project."
+    },
+    {
+      "id": "7109a37f-0f1d-45fb-b290-199ae14eeeb6",
+      "name": "Submission Portal Integration Modernization",
+      "url": "https://linear.app/ascertain/project/submission-portal-integration-modernization-9c66aac2a09d",
+      "status": "In Progress",
+      "priority": "None",
+      "startDate": "2026-04-13",
+      "targetDate": null,
+      "lead": "yevgeny@ascertain.com",
+      "teamKeys": [
+        "AUT",
+        "ENG"
+      ],
+      "summary": "Move all legacy portals over to the new base operations framework."
+    },
+    {
+      "id": "317b1ae0-776b-44f5-85ba-c157cc267b86",
+      "name": "UPP Refinements",
+      "url": "https://linear.app/ascertain/project/upp-refinements-069625f696da",
+      "status": "Completed",
+      "priority": "Urgent",
+      "startDate": null,
+      "targetDate": "2026-04-17",
+      "lead": "christine@ascertain.com",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "c0f61ce5-9b60-478c-a234-d98d409eda28",
+      "name": "Support CMA/MDM Ramp to 100% prior auth",
+      "url": "https://linear.app/ascertain/project/support-cmamdm-ramp-to-100percent-prior-auth-b0907a855865",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "josh@ascertain.com",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "f9f6a355-bad3-4393-ba1b-5c07882a7d77",
+      "name": "Support 100% office visit auth volume CVIC/CVCFL",
+      "url": "https://linear.app/ascertain/project/support-100percent-office-visit-auth-volume-cviccvcfl-c72e01bebae3",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "josh@ascertain.com",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "9aeb6526-1782-4080-81f6-f1f3484a5f86",
+      "name": "UPP Rule Knowledge Base",
+      "url": "https://linear.app/ascertain/project/upp-rule-knowledge-base-52f0047df07f",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": "2026-04-13",
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT",
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "e9a2d379-4d0b-4962-827e-c89f5f0a8fda",
+      "name": "Diagnostics and Procedures (May 4th delivery)",
+      "url": "https://linear.app/ascertain/project/diagnostics-and-procedures-may-4th-delivery-988399f7c4e4",
+      "status": "In Progress",
+      "priority": "Urgent",
+      "startDate": "2026-03-28",
+      "targetDate": "2026-05-04",
+      "lead": null,
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "Ascertain must cover all diagnostics and procedures for the THH (a CVA practice) starting May 4th."
+    },
+    {
+      "id": "6709d3ec-e977-4e4a-963c-444b8c47e673",
+      "name": "PostHog Setup",
+      "url": "https://linear.app/ascertain/project/posthog-setup-fe795803d817",
+      "status": "Paused",
+      "priority": "High",
+      "startDate": null,
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "ENG"
+      ],
+      "summary": "Integrate PostHog across all customer environments — project-per-customer model with feature flags and remote config."
+    },
+    {
+      "id": "ff3913d0-ec59-4cc2-8da8-924ba845ed19",
+      "name": "Case Status and Workflows",
+      "url": "https://linear.app/ascertain/project/case-status-and-workflows-95da96532b55",
+      "status": "In Progress",
+      "priority": "High",
+      "startDate": "2026-03-23",
+      "targetDate": "2026-06-27",
+      "lead": "Vitor Carareto",
+      "teamKeys": [
+        "EXP"
+      ],
+      "summary": "Replace flat PriorAuth-centric case status with a multi-workflow derived status model. State machines, derivation engine, shadow mode migration, frontend cutover."
+    },
+    {
+      "id": "37b65b99-4426-4c78-a7c8-ab3fcb1b7a2f",
+      "name": "Product Metrics V0 Metric Views",
+      "url": "https://linear.app/ascertain/project/product-metrics-v0-metric-views-574524ba155c",
+      "status": "Planned",
+      "priority": "High",
+      "startDate": "2026-03-12",
+      "targetDate": null,
+      "lead": "Tiago Duque",
+      "teamKeys": [
+        "AUT"
+      ],
+      "summary": "Deliver the first seven L1 product metrics with no application changes."
+    },
+    {
+      "id": "5638ed37-b35f-4af9-8db1-3cda575c247a",
+      "name": "Submission Routing",
+      "url": "https://linear.app/ascertain/project/submission-routing-90539a270bc0",
+      "status": "Completed",
+      "priority": "High",
+      "startDate": "2026-03-06",
+      "targetDate": null,
+      "lead": "Gil Gregório",
+      "teamKeys": [
+        "AUT",
+        "ENG"
+      ],
+      "summary": "Automate prior authorization submission routing by mapping payers to the correct portal or fax pathway and executing submissions without manual assistant intervention."
+    },
+    {
+      "id": "22ac701f-699c-43ac-b705-247a2e7373b7",
+      "name": "CPT Code Knowledge Base",
+      "url": "https://linear.app/ascertain/project/cpt-code-knowledge-base-5ac2ed9acbcf",
+      "status": "Completed",
+      "priority": "High",
+      "startDate": "2026-03-11",
+      "targetDate": "2026-03-20",
+      "lead": "Adam Gschwender",
+      "teamKeys": [
+        "EXP",
+        "ENG"
+      ],
+      "summary": "Build a deterministic, ops-managed knowledge layer that translates arbitrary procedure-order text into strict CPT code outputs (primary + required companion codes), starting with TOI and expanding to cardiology."
+    },
+    {
+      "id": "223dc3f0-5dc4-4338-9e40-bf614b4afbbd",
+      "name": "Reporting Layer",
+      "url": "https://linear.app/ascertain/project/reporting-layer-eed83429f2cd",
+      "status": "Backlog",
+      "priority": "None",
+      "startDate": "2026-04-01",
+      "targetDate": "2026-04-30",
+      "lead": "Sasha Tamarina",
+      "teamKeys": [
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "8e08a7dc-7ec7-4843-a430-5172033c0b10",
+      "name": "Agent Harness v1 (rules evaluation)",
+      "url": "https://linear.app/ascertain/project/agent-harness-v1-rules-evaluation-438875d93410",
+      "status": "Completed",
+      "priority": "High",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "lead": "Adam Gschwender",
+      "teamKeys": [
+        "AUT",
+        "EXP",
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "fc4ff215-cbc1-4ab8-97d6-7272b09ac16a",
+      "name": "Astrana Portal",
+      "url": "https://linear.app/ascertain/project/astrana-portal-00042a2c4948",
+      "status": "Completed",
+      "priority": "None",
+      "startDate": "2026-02-06",
+      "targetDate": null,
+      "lead": "yevgeny@ascertain.com",
+      "teamKeys": [
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "e9c64d8d-ad01-4818-99f5-b5493587caa4",
+      "name": "Org → Practice → Team hierarchy",
+      "url": "https://linear.app/ascertain/project/org-practice-team-hierarchy-9cb1a08fb03f",
+      "status": "Completed",
+      "priority": "Medium",
+      "startDate": "2026-01-26",
+      "targetDate": "2026-02-13",
+      "lead": "sergey@ascertain.com",
+      "teamKeys": [
+        "SEC",
+        "ENG"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "aa8ee9de-0a83-416b-84d5-ec5d2de35e6e",
+      "name": "Get rid of AA spreadhseet",
+      "url": "https://linear.app/ascertain/project/get-rid-of-aa-spreadhseet-203eb165bdd2",
+      "status": "In Progress",
+      "priority": "None",
+      "startDate": "2026-02-18",
+      "targetDate": null,
+      "lead": null,
+      "teamKeys": [
+        "ENG"
+      ],
+      "summary": ""
+    }
+  ],
+  "keyDocs": [
+    {
+      "id": "3372b7f759ed80158c45d5a6cd788706",
+      "title": "04/06/26 Cycle Planning 61",
+      "url": "https://www.notion.so/3372b7f759ed80158c45d5a6cd788706",
+      "lastEdited": "2026-04-07T16:05:00.000Z"
+    },
+    {
+      "id": "30c2b7f759ed806596dfc2730bbb693f",
+      "title": "Expansion team Roadmap",
+      "url": "https://www.notion.so/30c2b7f759ed806596dfc2730bbb693f",
+      "lastEdited": "2026-03-04T16:51:00.000Z"
+    },
+    {
+      "id": "3252b7f759ed808a91b2dc8ce90b4dd1",
+      "title": "Expand Team Capacity & Prioritization",
+      "url": "https://www.notion.so/3252b7f759ed808a91b2dc8ce90b4dd1",
+      "lastEdited": "2026-03-17T16:18:00.000Z"
+    }
+  ],
+  "errors": [
+    {
+      "source": "slack.automation",
+      "message": "An API error occurred: not_in_channel"
+    },
+    {
+      "source": "slack.expansion",
+      "message": "An API error occurred: not_in_channel"
+    }
+  ]
 }

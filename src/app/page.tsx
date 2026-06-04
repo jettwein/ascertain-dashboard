@@ -1,33 +1,117 @@
 import { readSnapshot } from "@/lib/snapshot";
+import { StatCard } from "@/components/dashboard/stat-card";
+import { TeamCard } from "@/components/dashboard/team-card";
+import { ProjectBoard } from "@/components/dashboard/project-board";
+import { DocsCard } from "@/components/dashboard/docs-card";
+import { GapsNotice } from "@/components/dashboard/gaps-notice";
+import { formatDateTime } from "@/lib/dashboard";
 
 export default async function Home() {
   const snapshot = await readSnapshot();
+
+  if (!snapshot) {
+    return (
+      <main className="mx-auto max-w-2xl px-6 py-32 text-center">
+        <h1 className="font-display text-3xl font-medium tracking-tight">
+          Ascertain Dashboard
+        </h1>
+        <p className="mt-4 font-mono text-sm text-muted-foreground">
+          No snapshot found. Run{" "}
+          <span className="text-signal">npm run snapshot</span> to populate
+          data/snapshot.json
+        </p>
+      </main>
+    );
+  }
+
+  // Only teams that exist in Linear — skip placeholders like Platform.
+  const teams = snapshot.teams.filter((team) => team.linearTeamKey);
+
+  const activeIssues = teams.reduce(
+    (sum, team) => sum + team.activeIssues.length,
+    0
+  );
+  const inReview = teams.reduce(
+    (sum, team) =>
+      sum + team.activeIssues.filter((i) => i.status === "In Review").length,
+    0
+  );
+  const projectsInProgress = snapshot.projects.filter(
+    (p) => p.status === "In Progress"
+  ).length;
+
+  // Each section fades up in sequence on load.
+  let step = 0;
+  const delay = () => ({ animationDelay: `${step++ * 90}ms` });
+
   return (
-    <main className="mx-auto max-w-5xl px-6 py-12">
-      <h1 className="text-3xl font-semibold tracking-tight">
-        Ascertain Dashboard
-      </h1>
-      <p className="mt-2 text-muted-foreground">
-        Product &amp; engineering activity across Expansion, Automation, and
-        Platform.
-      </p>
-      <div className="mt-8 rounded-lg border p-4 text-sm text-muted-foreground">
-        Snapshot last generated:{" "}
-        <code>{snapshot?.generatedAt ?? "never"}</code>
-        <br />
-        Teams: {snapshot?.teams.length ?? 0} · Projects:{" "}
-        {snapshot?.projects.length ?? 0} · Docs:{" "}
-        {snapshot?.keyDocs.length ?? 0}
-        {snapshot?.errors && snapshot.errors.length > 0 && (
-          <div className="mt-2 text-red-600">
-            Errors: {snapshot.errors.map((e) => e.source).join(", ")}
+    <main className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 py-12 md:py-16">
+      <header className="reveal flex flex-col gap-5" style={delay()}>
+        <div className="flex items-start justify-between gap-4">
+          <p className="font-mono text-[11px] tracking-[0.22em] text-signal uppercase">
+            Ascertain · Product &amp; Engineering
+          </p>
+          <div className="flex items-center gap-2 font-mono text-[11px] tracking-wide text-muted-foreground">
+            <span
+              className="size-1.5 rounded-full"
+              style={{ backgroundColor: "var(--st-done)" }}
+              aria-hidden
+            />
+            {formatDateTime(snapshot.generatedAt)}
           </div>
-        )}
+        </div>
+        <h1 className="font-display text-6xl leading-[0.92] font-semibold tracking-[-0.04em] md:text-7xl">
+          Operations
+          <span className="block font-light text-muted-foreground">
+            Dashboard
+          </span>
+        </h1>
+      </header>
+
+      <section
+        className="reveal flex flex-wrap divide-x divide-border border-y border-border py-6"
+        style={delay()}
+      >
+        <StatCard label="Active Issues" value={activeIssues} />
+        <StatCard label="In Review" value={inReview} hint="all teams" />
+        <StatCard
+          label="Projects Live"
+          value={projectsInProgress}
+          hint={`of ${snapshot.projects.length} total`}
+        />
+        <StatCard label="Teams" value={teams.length} />
+      </section>
+
+      <section className="reveal flex flex-col gap-6" style={delay()}>
+        <div className="flex items-baseline justify-between border-b border-border pb-2">
+          <h2 className="font-display text-2xl font-medium tracking-tight">
+            Teams
+          </h2>
+          <span className="font-mono text-[11px] tracking-wide text-muted-foreground tabular-nums">
+            {activeIssues} ISSUES IN FLIGHT
+          </span>
+        </div>
+        <div className="grid gap-x-8 gap-y-10 md:grid-cols-2">
+          {teams.map((team) => (
+            <TeamCard key={team.key} team={team} />
+          ))}
+        </div>
+      </section>
+
+      <div className="reveal" style={delay()}>
+        <ProjectBoard projects={snapshot.projects} />
       </div>
-      <p className="mt-8 text-sm text-muted-foreground">
-        UI coming in step 4. Run <code>npm run snapshot</code> to populate
-        data.
-      </p>
+
+      <section className="reveal grid gap-x-8 gap-y-10 lg:grid-cols-2" style={delay()}>
+        <DocsCard docs={snapshot.keyDocs} />
+        <GapsNotice errors={snapshot.errors} />
+      </section>
+
+      <footer className="reveal border-t border-border pt-4 font-mono text-[11px] tracking-wide text-muted-foreground" style={delay()}>
+        Generated by{" "}
+        <span className="text-foreground">npm run snapshot</span> · reads
+        data/snapshot.json · Linear · Notion · Slack
+      </footer>
     </main>
   );
 }
